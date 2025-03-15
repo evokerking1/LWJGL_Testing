@@ -1,7 +1,10 @@
 package dev.evokerking;
 
+import dev.evokerking.HelloWorld;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        HelloWorld helloWorld = new HelloWorld();
+        helloWorld.run();
     }
 }
